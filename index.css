@@ -1,18 +1,86 @@
+/* General reset */
 * {
-  background-color: #C5D8E3;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-#mainheading {
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  padding: 20px;
+  background-color: #f9f9f9;
+  color: #333;
   text-align: center;
-  font-size: 50px;
 }
 
-#sitedescription {
-  font-size: x-large;
+/* Main title styling */
+#mainheading h1 {
+  font-size: 3em;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+/* Site description styling */
+#sitedescription p {
+  font-size: 1.2em;
+  color: #555;
+  margin-bottom: 40px;
+}
+
+/* Recipe links styling */
+#recipelinks ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#recipelinks li {
+  margin: 15px 0;
+}
+
+#recipelinks a {
+  text-decoration: none;
+  font-size: 1.4em;
+  color: #2980b9;
+  font-weight: bold;
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+#recipelinks a:hover {
+  background-color: #f0f0f0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  color: #e74c3c;
+}
+
+/* Footer styling */
+footer {
   text-align: center;
-  max-width: 800px;
+  padding: 20px 0;
+  font-size: 0.9em;
+  color: #777;
 }
 
-#recipelinks {
-  font-size: 20px;
+/* Responsive design */
+@media (min-width: 768px) {
+  body {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  #mainheading h1 {
+    font-size: 3.5em;
+  }
+
+  #sitedescription p {
+    font-size: 1.4em;
+  }
+
+  #recipelinks a {
+    font-size: 1.6em;
+  }
 }

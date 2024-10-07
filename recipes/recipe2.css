@@ -1,0 +1,104 @@
+/* General reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  padding: 20px;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Styling for the title */
+h1 {
+  text-align: center;
+  color: #2c3e50;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+/* Responsive image styling */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Section and text styling */
+section {
+  margin-bottom: 30px;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+p {
+  font-size: 1.1em;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+/* Recipe lists styling */
+ul, ol {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul li, ol li {
+  padding: 8px 0;
+  font-size: 1.1em;
+  border-bottom: 1px solid #ddd;
+  color: #555;
+}
+
+ul li:last-child, ol li:last-child {
+  border-bottom: none;
+}
+
+ol li {
+  padding-left: 1.2em;
+  margin-bottom: 10px;
+}
+
+/* Links styling */
+#recipelinks a {
+  color: #2980b9;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#recipelinks a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 0.9em;
+  color: #777;
+}
+
+/* Responsive design */
+@media (min-width: 768px) {
+  body {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  h1 {
+    font-size: 3em;
+  }
+
+  p, ul li, ol li {
+    font-size: 1.2em;
+  }
+}
